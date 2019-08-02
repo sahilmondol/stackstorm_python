@@ -1,0 +1,13 @@
+---
+name: "greet"
+pack: stackstorm_python
+runner_type: "python-script"
+description: "Print message for the parameters."
+enabled: true
+entry_point: "params.py"
+parameters:
+    message:
+        type: "string"
+        description: "StackStorm with argument!."
+        required: true
+        position: 0
