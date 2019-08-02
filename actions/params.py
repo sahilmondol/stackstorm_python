@@ -4,4 +4,4 @@ from st2common.runners.base_action import Action
 
 class Greet(Action):
     def run(self, message):
-        print("Welcome {0}".format(message))
+        print("Welcome {0}, to StackStorm!!!!".format(message))
