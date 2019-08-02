@@ -1,5 +1,5 @@
 ---
-name: "greet"
+name: "params"
 pack: stackstorm_python
 runner_type: "python-script"
 description: "Print message for the parameters."
