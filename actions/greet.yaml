@@ -1,0 +1,13 @@
+---
+name: "greet"
+pack: stackstorm_python
+runner_type: "python-script"
+description: "Print message for the greet."
+enabled: true
+entry_point: "greet.py"
+parameters:
+    message:
+        type: "string"
+        description: "StackStorm!."
+        required: true
+        position: 0
