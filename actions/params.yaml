@@ -11,3 +11,8 @@ parameters:
         description: "StackStorm with argument!."
         required: true
         position: 0
+    country:
+        type: "string"
+        description: "StackStorm with argument!."
+        required: true
+        position: 1
